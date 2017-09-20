@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1487420358 source:f:\c++graphism\bgiwidget.cpp
+	"BGIWidget.h"
+	<wtypes.h>
+
+1487361052 f:\c++graphism\bgiwidget.h
+	<graphics.h>
+	<iostream>
+	<pthread.h>
+	<atomic>
+	<map>
+	<stdbool.h>
+	"BGISize.h"
+	<winuser.h>
+	<X11/Xlib.h>
+
+1487420528 source:f:\c++graphism\main.cpp
+	<iostream>
+	"BGIWidget.h"
+	<ctime>
+	<iomanip>
+	"BGISize.h"
+	"BGIPen.h"
+
+1487359568 source:f:\c++graphism\src\bgisize.cpp
+	"BGISize.h"
+
+1487359502 f:\c++graphism\include\bgisize.h
+
+1487414618 source:f:\c++graphism\src\bgipen.cpp
+	"BGIPen.h"
+
+1487415094 f:\c++graphism\include\bgipen.h
+	"BGIConstant.h"
+
+1487411836 f:\c++graphism\include\bgiconstant.h
+	<graphics.h>
+
+1487359568 source:f:\c++graphism\wrappers\src\bgisize.cpp
+	"BGISize.h"
+
+1487359502 f:\c++graphism\wrappers\include\bgisize.h
+
+1487421344 source:f:\c++graphism\wrappers\src\bgicommon.cpp
+	"BGICommon.h"
+
+1487421344 f:\c++graphism\wrappers\include\bgicommon.h
+
+1488111896 source:f:\c++graphism\wrappers\src\bgipen.cpp
+	"BGIPen.h"
+
+1488069212 f:\c++graphism\wrappers\include\bgipen.h
+	"BGIConstant.h"
+
+1488128620 f:\c++graphism\wrappers\include\bgiconstant.h
+	<graphics.h>
+	<iostream>
+
+1488125502 source:f:\c++graphism\wrappers\src\bgiwidget.cpp
+	"BGIWidget.h"
+	<wtypes.h>
+
+1488064060 f:\c++graphism\wrappers\include\bgiwidget.h
+	<BGIConstant.h>
+	<pthread.h>
+	<atomic>
+	<map>
+	<vector>
+	<stdbool.h>
+	"BGIPoint.h"
+	"BGIPen.h"
+	"BGIPaintObject.h"
+	<winuser.h>
+	<X11/Xlib.h>
+
+1488125608 source:f:\c++graphism\wrappers\src\main.cpp
+	<iostream>
+	<ctime>
+	"BGIWidget.h"
+	"BGIPainter.h"
+
+1487421344 source:e:\c++graphism\wrappers\src\bgicommon.cpp
+	"BGICommon.h"
+
+1487421344 e:\c++graphism\wrappers\include\bgicommon.h
+
+1487769894 source:e:\c++graphism\wrappers\src\bgifont.cpp
+	"BGIFont.h"
+
+1487861020 e:\c++graphism\wrappers\include\bgifont.h
+	"BGIConstant.h"
+	"BGIRec.h"
+
+1487766684 e:\c++graphism\wrappers\include\bgiconstant.h
+	<graphics.h>
+	<iostream>
+
+1487527630 source:e:\c++graphism\wrappers\src\bgipen.cpp
+	"BGIPen.h"
+
+1487527620 e:\c++graphism\wrappers\include\bgipen.h
+	"BGIConstant.h"
+
+1487359568 source:e:\c++graphism\wrappers\src\bgisize.cpp
+	"BGISize.h"
+
+1487762078 e:\c++graphism\wrappers\include\bgisize.h
+
+1487519816 source:e:\c++graphism\wrappers\src\bgiwidget.cpp
+	"BGIWidget.h"
+	<wtypes.h>
+
+1487520436 e:\c++graphism\wrappers\include\bgiwidget.h
+	<BGIConstant.h>
+	<pthread.h>
+	<atomic>
+	<map>
+	<stdbool.h>
+	"BGISize.h"
+	<winuser.h>
+	<X11/Xlib.h>
+
+1487769510 source:e:\c++graphism\wrappers\src\main.cpp
+	<iostream>
+	"BGIWidget.h"
+	<ctime>
+	<iomanip>
+	"BGISize.h"
+	"BGIPen.h"
+	"BGIFont.h"
+
+1487860754 e:\c++graphism\wrappers\include\bgirec.h
+
+1488111878 source:f:\c++graphism\wrappers\src\bgifont.cpp
+	"BGIFont.h"
+
+1488049448 f:\c++graphism\wrappers\include\bgifont.h
+	"BGIConstant.h"
+	"BGIPoint.h"
+
+1487964658 f:\c++graphism\wrappers\include\bgirec.h
+
+1487964658 source:f:\c++graphism\wrappers\src\bgirec.cpp
+	"BGIRec.h"
+
+1487873268 f:\c++graphism\wrappers\include\bgipoint.h
+
+1487873714 source:f:\c++graphism\wrappers\src\bgipoint.cpp
+	"BGIPoint.h"
+
+1488108564 source:f:\c++graphism\wrappers\src\bgipainter.cpp
+	"BGIPainter.h"
+
+1488108564 f:\c++graphism\wrappers\include\bgipainter.h
+	"BGIFont.h"
+	"BGIRec.h"
+	"BGIPen.h"
+	"BGIWidget.h"
+	<pthread.h>
+	<vector>
+
+1488125356 source:f:\c++graphism\wrappers\src\bgipaintobject.cpp
+	"BGIPaintObject.h"
+
+1488126046 f:\c++graphism\wrappers\include\bgipaintobject.h
+	"BGIPoint.h"
+	"BGIRec.h"
+	"BGIConstant.h"
+	<atomic>
+
+1487955702 source:f:\c++graphism\wrappers\src\painter.cpp
+	"painter.h"
+
+1487955702 f:\c++graphism\wrappers\include\painter.h
+	"BGIPen.h"
+

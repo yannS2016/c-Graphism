@@ -1,0 +1,11 @@
+*.exe
+*.o
+*.a
+/WinBGIm/build/*.layout
+/WinBGIm/build/*.depend
+/WinBGIm/.objs
+/WinBGIm/bin
+/WinBGIm/lib
+/build/*.layout
+/build/*.depend
+/build/*.depend

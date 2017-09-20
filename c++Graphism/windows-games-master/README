@@ -1,0 +1,4 @@
+This project uses http://winbgim.codecutter.org/
+
+requires the following depenencies:
+    sudo apt-get install make mingw-w64

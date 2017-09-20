@@ -1,0 +1,39 @@
+we need to use layout:
+
+we have three possible layouts:
+ horizontal layout
+ vertical layout
+ no layout
+
+when horizontal layout is use:
+only the width of the shape is changed
+
+when vertical layout is set:
+only the shape height is changed.
+
+now the windows comes with defautl sizes which natural sizes.
+
+when using horizontal layout:
+ if we resize so that new height > naturalHeight
+ then the shape width or radius must not change
+
+ but if newHeight < naturalHeight then the with or radius of internal shape must decrease
+ proportianly
+
+now the position of the shape must be updated accordingly based of new height
+
+when using vertical layout:
+if we resize so that new width > naturalwidth
+	then the shape height must not change
+but if newwidht < natural width
+	the shape with or radius of shape must decrease proportionaly
+
+we need to give the user control over layouts such that a layout can be broken:
+alignnment of redrawn shaped will depend on type of layout:
+
+when a layout is broken, we use predfine minimum dimension for all shape all place them apart depending on their
+center distance from prviuos layout.
+
+we will make the layout a member of BGIWidget
+provide a member function setlayout to set the widget layout
+we need layout margins(vertical and horizontal);

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="graphicsTest" />
+		<Option execution_dir="C:/Users/yann/Desktop/My_Bureau/Desktop_stuff/Programming_book/C_programming/graphicsTest/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/graphicsTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/graphicsTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="libcppbgi">
+				<Option output="bin/libcppbgi/graphicsTest" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/libcppbgi/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=corei7" />
+			<Add option="-Wshadow" />
+			<Add option="-Wunreachable-code" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libbgi.a" />
+		</Linker>
+		<Unit filename="include/BGIConstant.h" />
+		<Unit filename="include/BGIFont.h" />
+		<Unit filename="include/BGILayout.h" />
+		<Unit filename="include/BGIPaintObject.h" />
+		<Unit filename="include/BGIPainter.h" />
+		<Unit filename="include/BGIPen.h" />
+		<Unit filename="include/BGIPoint.h" />
+		<Unit filename="include/BGIRec.h" />
+		<Unit filename="include/BGIWidget.h" />
+		<Unit filename="src/BGIFont.cpp" />
+		<Unit filename="src/BGILayout.cpp" />
+		<Unit filename="src/BGIPaintObject.cpp" />
+		<Unit filename="src/BGIPainter.cpp" />
+		<Unit filename="src/BGIPen.cpp" />
+		<Unit filename="src/BGIPoint.cpp" />
+		<Unit filename="src/BGIRec.cpp" />
+		<Unit filename="src/BGIWidget.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

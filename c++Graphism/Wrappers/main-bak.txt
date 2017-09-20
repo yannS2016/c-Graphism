@@ -1,0 +1,70 @@
+#include <iostream>
+#include "BGIWidget.h"
+#include <ctime>
+#include <iomanip>
+#include "BGIPoint.h"
+#include "BGIPen.h"
+#include "BGIFont.h"
+#include "BGIPainter.h"
+int main(void){
+// get initial processor time used by program
+    std::clock_t startTime = std::clock();
+    BGIWidget *mainWindow = new BGIWidget("BGIWidget",300,300);
+    BGIPen *pen = new BGIPen(BGIColor::BROWN,1,BGIPenStyle::DASHED_LINE);
+    //std::cout << pen->getStyle()<<std::endl;
+    circle(50,50,50);
+    pen->setWidth(2);
+    std::cout << pen->getPenWidth() <<std::endl;
+    pen->setColor(BGIColor::BLUE);
+    pen->setStyle(BGIPenStyle::DOTTED_LINE);
+    circle(50,160,50);
+
+    BGIFont tFont1(DEFAULT_FONT,DIR_HORIZ,TEXT_CENTER,2);
+    char mystr[50];
+    strcpy(mystr,"Hello CodeBlocks");
+    outtextxy(150,180,mystr);
+    BGIPoint *metrics1 = new BGIPoint(tFont1.getFontMetrics(mystr));
+    std::cout << "Font 1 Sizes are: " << metrics1->getX()<<"  " << metrics1->getY()<< std::endl;
+
+
+    BGIFont tFont2(SCRIPT_FONT,DIR_VERT,TEXT_BOTTOM,2);
+    outtextxy(150,180,mystr);
+    BGIPoint *metrics2 = new BGIPoint(tFont2.getFontMetrics(mystr));
+    std::cout << "Font 2 Sizes are: " << metrics2->getX()<<"  " << metrics2->getY()<< std::endl;
+    strcpy(mystr,"CodeBlocks");
+    BGIFont tFont3;
+    tFont3.setFont(SCRIPT_FONT);
+    outtextxy(160,200,mystr);
+    BGIPoint *metrics3 = new BGIPoint(tFont3.getFontMetrics(mystr));
+    std::cout << "Font 3 Sizes are: " << metrics3->getX()<<"  " << metrics3->getY()<< std::endl;
+    BGIPainter paint(BGIPen(), tFont3, mainWindow);
+    BGIPoint tPos(50,50);
+    BGIPoint begP(70,70);
+    BGIPoint endP(100,120);
+    paint.drawText(tPos,"my text", true);
+    paint.drawLine(begP, endP, true);
+    bool maxi = false;
+    while(!maxi){
+        //std::cout << mainWindow.getX() << "  " << mainWindow.getY() << std::endl;
+        if(mainWindow->isMaximized()){
+            BGIPoint *drawSize  = mainWindow->refDrawSizes();
+            //BGIPoint drawSize  = &(mainWindow.drawAreaSizes());
+            std::cout << "Screen was maximized! new sizes are: " << drawSize->getX() <<"  " <<drawSize->getY() << std::endl;
+            maxi = true;
+        }
+        delay(100);// give processor some time
+    }
+    /***************************Testing drawing method ********************************/
+
+    mainWindow->pause();
+    mainWindow->close();
+    delete pen;
+    delete metrics1;
+    delete metrics2;
+    delete metrics3;
+    delete mainWindow;
+    //mainWindow.setX(400);
+    //std::cout << std::fixed << std::setprecision(2) << "CPU time used: "
+    //          << 1000.0 * (std::clock()-startTime) / CLOCKS_PER_SEC << " ms\n" ;
+    return 0;
+}

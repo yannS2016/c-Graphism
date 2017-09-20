@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1487712114 source:f:\c++graphism\libcgbi\main.cpp
+	"BGIWrapper.h"
+
+1487533106 f:\c++graphism\libcgbi\sample.h
+	<graphics.h>
+	<iostream>
+	<pthread.h>
+	<atomic>
+	<map>
+	<stdbool.h>
+	<wtypes.h>
+	<winuser.h>
+	<X11/Xlib.h>
+
+1487712114 f:\c++graphism\libcgbi\bgiwrapper.h
+	<graphics.h>
+	<iostream>
+	<pthread.h>
+	<atomic>
+	<map>
+	<stdbool.h>
+	<wtypes.h>
+	<winuser.h>
+	<X11/Xlib.h>
+
+1487770456 source:e:\c++graphism\libcgbi\main.cpp
+	"BGIWrapper.h"
+
+1487762892 e:\c++graphism\libcgbi\bgiwrapper.h
+	<graphics.h>
+	<iostream>
+	<pthread.h>
+	<atomic>
+	<map>
+	<stdbool.h>
+	<wtypes.h>
+	<winuser.h>
+	<X11/Xlib.h>
+

@@ -1,0 +1,286 @@
+# depslib dependency file v1.0
+1487583419 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\dibutil.cxx
+	<windows.h>
+	<assert.h>
+	"dibapi.h"
+	"dibutil.h"
+	<stdio.h>
+
+1487583419 c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\dibapi.h
+
+1487583419 c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\dibutil.h
+
+1487583419 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\drawing.cxx
+	<windows.h>
+	<windowsx.h>
+	<math.h>
+	<ocidl.h>
+	<olectl.h>
+	<string.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	"dibapi.h"
+	<iostream>
+
+1487583420 c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\winbgim.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1487583420 c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\winbgitypes.h
+	<windows.h>
+	<tchar.h>
+	<queue>
+	<string>
+	"winbgim.h"
+	<vector>
+
+1487583419 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\file.cxx
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<direct.h>
+	<stdlib.h>
+	"dibutil.h"
+	"dibapi.h"
+	"winbgitypes.h"
+
+1487583419 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\misc.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<iostream>
+
+1487583419 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\mouse.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583419 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\palette.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583420 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\text.cxx
+	<windows.h>
+	<windowsx.h>
+	<iostream>
+	<sstream>
+	<string>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583420 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\winbgi.cxx
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+	<iostream>
+	<vector>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487594056 source:c:\users\yann\downloads\windows-games-master\windows-games-master\winbgim\src\winthread.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<vector>
+	<queue>
+	<iostream>
+	<iostream>
+
+1487583420 source:f:\c++graphism\windows-games-master\winbgim\src\dibutil.cxx
+	<windows.h>
+	<assert.h>
+	"dibapi.h"
+	"dibutil.h"
+	<stdio.h>
+
+1487583420 f:\c++graphism\windows-games-master\winbgim\src\dibapi.h
+
+1487583420 f:\c++graphism\windows-games-master\winbgim\src\dibutil.h
+
+1487583420 source:f:\c++graphism\windows-games-master\winbgim\src\drawing.cxx
+	<windows.h>
+	<windowsx.h>
+	<math.h>
+	<ocidl.h>
+	<olectl.h>
+	<string.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	"dibapi.h"
+	<iostream>
+
+1487583422 f:\c++graphism\windows-games-master\winbgim\src\winbgim.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1487583422 f:\c++graphism\windows-games-master\winbgim\src\winbgitypes.h
+	<windows.h>
+	<tchar.h>
+	<queue>
+	<string>
+	"winbgim.h"
+	<vector>
+
+1487583420 source:f:\c++graphism\windows-games-master\winbgim\src\file.cxx
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<direct.h>
+	<stdlib.h>
+	"dibutil.h"
+	"dibapi.h"
+	"winbgitypes.h"
+
+1487583420 source:f:\c++graphism\windows-games-master\winbgim\src\misc.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<iostream>
+
+1487583420 source:f:\c++graphism\windows-games-master\winbgim\src\mouse.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583420 source:f:\c++graphism\windows-games-master\winbgim\src\palette.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583422 source:f:\c++graphism\windows-games-master\winbgim\src\text.cxx
+	<windows.h>
+	<windowsx.h>
+	<iostream>
+	<sstream>
+	<string>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583422 source:f:\c++graphism\windows-games-master\winbgim\src\winbgi.cxx
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+	<iostream>
+	<vector>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487703976 source:f:\c++graphism\windows-games-master\winbgim\src\winthread.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<vector>
+	<queue>
+	<iostream>
+	<iostream>
+
+1487583420 source:e:\c++graphism\windows-games-master\winbgim\src\dibutil.cxx
+	<windows.h>
+	<assert.h>
+	"dibapi.h"
+	"dibutil.h"
+	<stdio.h>
+
+1487583420 e:\c++graphism\windows-games-master\winbgim\src\dibapi.h
+
+1487583420 e:\c++graphism\windows-games-master\winbgim\src\dibutil.h
+
+1487583420 source:e:\c++graphism\windows-games-master\winbgim\src\drawing.cxx
+	<windows.h>
+	<windowsx.h>
+	<math.h>
+	<ocidl.h>
+	<olectl.h>
+	<string.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	"dibapi.h"
+	<iostream>
+
+1487583422 e:\c++graphism\windows-games-master\winbgim\src\winbgim.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1487583422 e:\c++graphism\windows-games-master\winbgim\src\winbgitypes.h
+	<windows.h>
+	<tchar.h>
+	<queue>
+	<string>
+	"winbgim.h"
+	<vector>
+
+1487583420 source:e:\c++graphism\windows-games-master\winbgim\src\file.cxx
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<io.h>
+	<direct.h>
+	<stdlib.h>
+	"dibutil.h"
+	"dibapi.h"
+	"winbgitypes.h"
+
+1487583420 source:e:\c++graphism\windows-games-master\winbgim\src\misc.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<iostream>
+
+1487583420 source:e:\c++graphism\windows-games-master\winbgim\src\mouse.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583420 source:e:\c++graphism\windows-games-master\winbgim\src\palette.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583422 source:e:\c++graphism\windows-games-master\winbgim\src\text.cxx
+	<windows.h>
+	<windowsx.h>
+	<iostream>
+	<sstream>
+	<string>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487583422 source:e:\c++graphism\windows-games-master\winbgim\src\winbgi.cxx
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+	<iostream>
+	<vector>
+	"winbgim.h"
+	"winbgitypes.h"
+
+1487666584 source:e:\c++graphism\windows-games-master\winbgim\src\winthread.cxx
+	<windows.h>
+	<windowsx.h>
+	"winbgim.h"
+	"winbgitypes.h"
+	<vector>
+	<queue>
+	<iostream>
+	<iostream>
+
